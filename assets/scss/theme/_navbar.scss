@@ -1,0 +1,31 @@
+.navbar {
+  padding: $spacer-4 0;
+}
+
+.navbar-light .navbar-brand {
+  color: $c-text-dark;
+  font-weight: bold;
+  &:hover {
+    color: $c-text-dark;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $c-text;
+    &:hover {
+      color: $c-text-dark;
+    }
+}
+
+.bg-light {
+  background-color: $c-bg !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border: none;
+}
+
+.fa.fa-bars {
+  color: $c-text-dark;
+}

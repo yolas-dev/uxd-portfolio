@@ -1,0 +1,42 @@
+
+// Card
+
+.card, .card-img-top {
+  background-color: unset;
+  border: none;
+  border-radius: $border-radius;
+}
+
+// Card Zoom
+
+.card-zoom {
+  overflow: hidden !important;
+  border-radius: inherit;
+}
+
+.card-zoom > [class*="card-img"] {
+  transition: all .3s ease;
+  transform-origin: center center;
+}
+
+.card:hover > .card-zoom > [class*="card-img"] {
+  transform: scale(1.1);
+}
+
+// Card Footer
+
+.card-footer {
+  background-color: unset;
+  border: none;
+}
+
+// Card Links
+
+a.card, a.card-body, a.card-footer, a.card-meta {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,71 @@
+body {
+  background-color: $c-bg;
+  color: $c-text;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-base;
+}
+
+::selection {
+  background-color: $primary;
+  color: $c-bg;
+}
+// Headings
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $c-text-dark;
+  font-weight: bold;
+  letter-spacing: $headings-letter-spacing;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  font-weight: $font-weight-normal;
+  line-height: $h1-line-height;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  line-height: $h2-line-height;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  line-height: $h4-line-height;
+}
+
+h5 {
+  color: $c-text-dark;
+  font-size: $h5-font-size;
+  font-weight: $font-weight-bold;
+  line-height: $h5-line-height;
+}
+
+h6 {
+  color: $primary;
+  font-size: $h6-font-size;
+  line-height: $h6-line-height;
+
+  &.text-uppercase {
+    letter-spacing: 0.08em;
+  }
+}
+// Display
+.display-7 {
+  font-size: $display-7;
+  font-weight: $display-font-weight;
+  letter-spacing: $display-letter-spacing;
+}
